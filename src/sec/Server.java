@@ -105,7 +105,7 @@ class Connection extends Thread {
                 }
                 if (message == null || message.equals("0")) {
                     System.out.println("Exit");
-
+                    break;
                 }
             }
         } catch (IOException e) {
